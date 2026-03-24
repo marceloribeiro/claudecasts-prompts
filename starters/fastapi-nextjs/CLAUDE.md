@@ -98,3 +98,8 @@ The user may want certain feature to be extracted into packages that they could 
 
 - Unless told otherwise, delete is always about soft deleting records. Meaning setting up the value for deleted_at, and using that for the scope when listing elements in the list/search endpoints. 
 
+### Starting point
+
+Whenever you start a new api project, make sure you set up the elements described here for the API, the justfile commands, the architecture expected, so it has an initial platform for the user to work on. 
+
+Whenever you start a new frontend app project, make sure you set up the elements described here for the Frontend app, the justfile commands, the architecture expected so it has an initial platform for the user to work on.
